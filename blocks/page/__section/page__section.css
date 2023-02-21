@@ -1,0 +1,15 @@
+.page__section {
+  margin: 92px auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .page__section {
+    margin: calc(88px + (92 - 88)*((100vw - 768px)/(1023 - 768))) auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__section {
+    margin: calc(64px + (88 - 64)*((100vw - 320px)/(767 - 320))) auto;
+  }
+}

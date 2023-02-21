@@ -1,0 +1,10 @@
+.link {
+  cursor: url(../../images/place-cursor.png), auto;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+
+.link:hover {
+  opacity: 0.8;
+  transition: opacity 0.1s linear;
+}
