@@ -1,4 +1,4 @@
-.cover_link {
+.cover__link {
   display: block;
   position: relative;
   background-image: url(../../../images/cover-background.png);
@@ -11,7 +11,7 @@
   cursor: url(../../../images/place-cursor.png), auto;
 }
 
-.cover_link::before {
+.cover__link::before {
   content: '';
   display: block;
   position: absolute;
@@ -23,7 +23,7 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.cover_link:hover::before {
+.cover__link:hover::before {
   opacity: 0.8;
   transition: opacity 0.1s linear;
 }
