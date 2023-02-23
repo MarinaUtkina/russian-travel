@@ -19,4 +19,4 @@
 
 ### Ссылка на проект
 
-[GitHub](https://github.com/MarinaUtkina/russian-travel.git)
+GitHub Pages: ["Путешествие по России"](https://marinautkina.github.io/russian-travel/)

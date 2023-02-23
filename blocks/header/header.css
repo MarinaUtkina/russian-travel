@@ -12,7 +12,6 @@
   .header {
     max-width: 100%;
     width: calc(100% - 2*48px);
-    margin: 0 auto;
     padding-bottom: calc(48px + (56 - 48)*((100vw - 1024px)/(1279 - 1024)));
   }
 }

@@ -1,53 +1,26 @@
 .cover__overlay {
   display: flex;
   flex-direction: column;
-  position: relative;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  min-height: 740px;
-  z-index: 0;
-  text-decoration: none;
-  cursor: url(../../../images/place-cursor.png), auto;
-}
-
-.cover__overlay::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
   height: 100%;
-  z-index: -1;
-  background: rgba(0, 0, 0, 1);
-  opacity: 0.3;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.cover__overlay:hover::before {
-  opacity: 0.8;
-  transition: opacity 0.1s linear;
+  min-height: 740px;
 }
 
 @media screen and (max-width: 1279px) {
   .cover__overlay {
-    height: calc(640px + (740 - 640)*((100vw - 1024px)/(1279 - 1024)));
     min-height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__overlay {
-    height: calc(480px + (640 - 480)*((100vw - 768px)/(1023 - 768)));
     min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__overlay {
-    height: calc(200px + (480 - 200)*((100vw - 320px)/(767 - 320)));
     min-height: 200px;
-    padding-top: calc(2px + (0 - 2)*((100vw - 320px)/(767 - 320)));
   }
 }
